@@ -1,37 +1,42 @@
 /*--------------Navbar------------*/
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
+document.addEventListener('DOMContentLoaded', function () {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, options);
+});
 
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
+$(document).ready(function () {
+  $('.sidenav').sidenav();
+});
 
 /*--------------carousel------------*/
 
 
 var instance = M.Carousel.init({
-    fullWidth: true,
-    
-  });
- 
-  // Or with jQuery
+  fullWidth: true,
 
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true
-    
-  });
-var instance2 = M.Carousel.next({
-  
 });
 
-function validar()
-{
-  var valid = document.getElementsByClassName('email');
-  if(valid === 'pauloG')
-  {
-    console.log('certo');
+// Or with jQuery
+
+$('.carousel.carousel-slider').carousel({
+  fullWidth: true
+
+});
+
+
+//validar usuario
+function aler(form) {
+  form.nome.value = form.nome.value.toLowerCase()
+  form.senha.value = form.senha.value.toLowerCase()
+
+  if (form.nome.value == "paulo" && form.senha.value == "123") {
+    location = "index.html"
+  
+
+  } else {
+    form.nome.value == " "
+    form.senha.value == " "
+    alert("senha ou usuario incorreto")
   }
 }
-  
+
