@@ -25,12 +25,12 @@ $('.carousel.carousel-slider').carousel({
 
 
 //validar usuario
-/*function aler(form) {
+function aler(form) {
   form.nome.value = form.nome.value.toLowerCase()
   form.senha.value = form.senha.value.toLowerCase()
 
   if (form.nome.value == "paulo" && form.senha.value == "123" || form.nome.value == "kalil" && form.senha.value == "4002") {
-    location = "file:///C:/Users/06967780174/Documents/GitHub/Materialize2.0/Matrialize2.0/index.html"
+    location = "index.html"
   
 
   } else {
@@ -38,7 +38,7 @@ $('.carousel.carousel-slider').carousel({
     form.senha.value == " "
     alert("senha ou usuario incorreto")
   }
-}*/
+}
 
 
 function logado(form)
