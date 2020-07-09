@@ -31,8 +31,6 @@ function aler(form) {
 
   if (form.nome.value == "paulo" && form.senha.value == "123" || form.nome.value == "kalil" && form.senha.value == "4002") {
     location = "index.html"
-  
-
   } else {
     form.nome.value == " "
     form.senha.value == " "
@@ -40,15 +38,3 @@ function aler(form) {
   }
 }
 
-
-function logado(form)
-{
-  var logar = false
-  if(form.nome.value != " " && form.senha.value != " ")
-  {
-    logar = true
-    location = "file:///C:/Users/06967780174/Documents/GitHub/Materialize2.0/Matrialize2.0/index.html"
-  }else{
-    alert("tente novamente")
-  }
-}
