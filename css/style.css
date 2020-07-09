@@ -14,7 +14,7 @@ nav
 .card{
     width: 300px;
     margin-left: 10px;
-    left: 10%;
+    left: -4%;
     
     
 }
@@ -28,13 +28,4 @@ max-height: 100%;
 h5{
     font-weight: bold;
 }
-article
-{
-    
-}
-i .fa
-{
-   
-    
-   
-}
+

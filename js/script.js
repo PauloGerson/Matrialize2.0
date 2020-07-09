@@ -40,3 +40,7 @@ function aler(form) {
   }
 }
 
+$(document).ready(function(){
+  $('.demo').slick();
+});
+
