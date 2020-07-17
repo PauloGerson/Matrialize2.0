@@ -1,3 +1,15 @@
+@font-face {
+    src: url(../fonts/njnaruto.ttf);
+    font-family: 'njnaruto';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
 nav
 {
     background-color: #fcba03;
@@ -18,6 +30,12 @@ nav
     
     
 }
+.carousel
+{
+    
+}
+
+
  .rodape
 {
 background-color: black;
@@ -27,5 +45,52 @@ max-height: 100%;
 }
 h5{
     font-weight: bold;
+}
+
+.text-info
+{
+    text-align: center;
+    color: #5bc3bd;
+    font-size: 3.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.text-info2
+{
+    padding: 0 100px;    
+}
+
+.icon-temp
+{
+display: inline;
+
+}
+.icon-location
+{
+    
+}
+.icons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+.img-icon
+{
+    width: 55px;
+}
+.text-icons
+{
+    padding-right: 90px;
+}
+.color
+{
+    background-color: #9ad6d7;
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    
+        
 }
 
